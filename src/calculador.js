@@ -1,5 +1,5 @@
 function restar(a, b) {
-    return b-a;
+    return a-b;
   }
   
   export default restar;
