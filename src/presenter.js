@@ -1,8 +1,8 @@
 import restar from "./calculador";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const first = document.querySelector("#monto-venta");
+const second = document.querySelector("#monto-efectivo");
+const form = document.querySelector("#calcular-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + restar(secondNumber, firstNumber) + "</p>";
 });
