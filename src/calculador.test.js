@@ -5,3 +5,9 @@ describe("Restar", () => {
     expect(restar(3, 2)).toEqual(1);
   });
 });
+
+describe("Fraccionar", () => {
+    it("deberia fraccionar un numero", () => {
+      expect(fraccionar(19)).toEqual([5,5,5,2,2]);
+    });
+  });
