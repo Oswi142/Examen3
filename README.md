@@ -12,4 +12,4 @@ npm test
 
 Ejecutar pruebas de unidad solo una vez:
 npm run test-once
-Ejercicio 1
+Ejercicio 2

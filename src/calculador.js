@@ -1,6 +1,5 @@
 function restar(a, b) {
-    return a-b;
-  }
-  
-  export default restar;
-  
+  return a - b;
+}
+
+export default restar;
